@@ -1,0 +1,3 @@
+cf push data-sample-app -p ...
+cf create-service cleardb spark data-sample-db
+cf bind-service data-sample-app data-sample-db
