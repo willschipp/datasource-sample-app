@@ -1,0 +1,7 @@
+---
+applications:
+- name: data-sample-app
+  memory: 675M
+  instances: 1
+  services:
+    - data-sample-db
