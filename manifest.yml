@@ -4,4 +4,4 @@ applications:
   memory: 675M
   instances: 1
   services:
-    - data-sample-db
+    - remote-sample-db
