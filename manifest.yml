@@ -1,7 +1,7 @@
 ---
 applications:
 - name: data-sample-app
-  memory: 675M
   instances: 1
   services:
-    - remote-sample-db
+    - sample-db-one
+    - sample-db-two

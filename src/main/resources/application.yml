@@ -2,6 +2,12 @@ spring:
   jpa:
     hibernate:
       ddl-auto: create
+  datasource:
+    continue-on-error: true
+
+datasource:
+  schema: create-schema.sql
+  name: otherDataSource
 
 ---
 spring:
